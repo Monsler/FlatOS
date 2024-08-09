@@ -4,4 +4,4 @@ local computer = require 'computer'
 term.clear()
 
 print("Welcome to FlatOS installer!\n\nCurrent uptime: "..computer.uptime()..'\n')
-computer.beep(20, 3)
+computer.beep(21, 3)
