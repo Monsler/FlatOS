@@ -12,5 +12,5 @@ term.write("Enter new username: ")
 while true do
   os.sleep(1)
   print('hi')
-  if keyboard.isKeyDown('q') then break end
+  if keyboard.isKeyDown(0x10) then break end
 end
