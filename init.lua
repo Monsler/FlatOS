@@ -1,4 +1,5 @@
 local term = require 'term'
+local computer = require 'computer'
 
 term.clear()
 
