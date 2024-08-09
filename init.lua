@@ -8,4 +8,9 @@ term.clear()
 
 term.write("Welcome to FlatOS installer!\n\nCurrent uptime: "..computer.uptime()..'\nTo cancel installation, press q.\n')
 term.write("Enter new username: ")
-local c = io.stdin:read()
+
+while true do
+  os.sleep(10)
+  print('hi')
+  if keyboard.isKeyDown('q') then break end
+end
