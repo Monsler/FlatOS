@@ -10,7 +10,7 @@ term.write("Welcome to FlatOS installer!\n\nCurrent uptime: "..computer.uptime()
 term.write("Enter new username: ")
 
 while true do
-  os.sleep(10)
+  os.sleep(1)
   print('hi')
   if keyboard.isKeyDown('q') then break end
 end
