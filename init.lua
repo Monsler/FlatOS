@@ -2,4 +2,4 @@ local term = require 'term'
 
 term.clear()
 
-print("hello, world!")
+print("Welcome to FlatOS installer!")
