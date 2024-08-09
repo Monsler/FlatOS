@@ -1,3 +1,3 @@
-term.clear()
+require('term').clear()
 
 print("hello, world!")
